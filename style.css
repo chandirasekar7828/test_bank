@@ -1,0 +1,51 @@
+body {
+  background-color: aqua;
+}
+h1 {
+  color: rgb(247, 71, 40);
+}
+.header {
+  background-color: aliceblue;
+  padding: 10px;
+  text-align: center;
+  color: red;
+}
+.main {
+  background-color: blueviolet;
+  margin: 90px 150px 20px 150px;
+  padding: 100px 50px 100px 50px;
+  border-radius: 20px;
+  border: 2px solid black;
+  /* height: 200px; */
+}
+.main1 {
+  background-color: blueviolet;
+  margin: 90px 150px 20px 150px;
+  padding: 50px 50px 100px 50px;
+  border-radius: 20px;
+  border: 2px solid black;
+  font-size: 20px;
+  /* text-align: center; */
+  /* height: 200px; */
+}
+a {
+  color: white;
+  text-decoration: none;
+  background-color: blue;
+  margin: 30px;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+a:hover {
+  background-color: red;
+}
+button {
+  background-color: blue;
+  color: white;
+  padding: 10px 50px 10px 50px;
+  border-radius: 10px;
+}
+button:hover {
+  background-color: red;
+}

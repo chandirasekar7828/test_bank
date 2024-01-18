@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>create account</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="header">
+      <h1>Bank Of India</h1>
+    </div>
+    <form action="cacc.php" method="post">
+      <div class="main1">
+        <h1>Create a New Account</h1>
+        <table>
+          <tr>
+            <td>Account No:</td>
+            <td><input type="number" name="no" required /></td>
+          </tr>
+          <tr>
+            <td>Account Holder Name:</td>
+            <td><input type="name" name="name" required /></td>
+          </tr>
+          <tr>
+            <td>Account Holder Date of Birth:</td>
+            <td><input type="date" name="date" required /></td>
+          </tr>
+          <tr>
+            <td>Initial Amount:</td>
+            <td><input type="number" name="amount" required /></td>
+          </tr>
+        </table>
+        <button name="submit">submit</button>
+        <button type="reset">clear</button>
+      </div>
+    </form>
+    <a href="main.html">back</a>
+  </body>
+</html>
