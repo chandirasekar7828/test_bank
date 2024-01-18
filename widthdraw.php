@@ -22,7 +22,7 @@ $result=mysqli_query($conn,$sql);
         elseif($no==$acc_no ){
             $total=$am-$amount;
             mysqli_query($conn,"update account set init_amount='$total' where acc_no='$no'");
-            echo "<script>alert(' $acc_no The account successful widthdraw amount for $amount');</script>";
+            echo "<script>alert(' $acc_no The Account successful widthdraw amount for $amount');</script>";
             echo "<script>window.location='widthdraw.html'</script>";
             exit;
         }
